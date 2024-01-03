@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3F93EA2B41789000B4A067 /* ContentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F93E92B41789000B4A067 /* ContentCard.swift */; };
+		2C3F93FD2B417C5B00B4A067 /* ContentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F93FC2B417C5B00B4A067 /* ContentList.swift */; };
+		2C3F94032B41AF1700B4A067 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F94022B41AF1700B4A067 /* NetworkManager.swift */; };
+		2C3F94052B42C2ED00B4A067 /* URLRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F94042B42C2ED00B4A067 /* URLRequestFactory.swift */; };
+		2C3F94072B42E7F300B4A067 /* GraphQLQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F94062B42E7F300B4A067 /* GraphQLQuery.swift */; };
+		2C3F94112B430E6D00B4A067 /* GetByScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F94102B430E6D00B4A067 /* GetByScore.swift */; };
+		2C3F94132B43302300B4A067 /* AniListConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F94122B43302300B4A067 /* AniListConsts.swift */; };
+		2C3F94152B43645100B4A067 /* LoadDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F94142B43645100B4A067 /* LoadDataCell.swift */; };
+		2C3F941B2B44296500B4A067 /* ContentListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F941A2B44296500B4A067 /* ContentListService.swift */; };
+		2C3F941E2B443FD800B4A067 /* ContentCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F941D2B443FD800B4A067 /* ContentCardModel.swift */; };
+		2C5587912B415D9100488586 /* Mobile_for_AniListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5587902B415D9100488586 /* Mobile_for_AniListApp.swift */; };
+		2C5587932B415D9100488586 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5587922B415D9100488586 /* MainScreen.swift */; };
+		2C5587952B415D9200488586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5587942B415D9200488586 /* Assets.xcassets */; };
+		2C5587982B415D9200488586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5587972B415D9200488586 /* Preview Assets.xcassets */; };
+		2C5587A22B415D9200488586 /* Mobile_for_AniListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5587A12B415D9200488586 /* Mobile_for_AniListTests.swift */; };
+		2C5587AC2B415D9300488586 /* Mobile_for_AniListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5587AB2B415D9300488586 /* Mobile_for_AniListUITests.swift */; };
+		2C5587AE2B415D9300488586 /* Mobile_for_AniListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5587AD2B415D9300488586 /* Mobile_for_AniListUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C55879E2B415D9200488586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5587852B415D9100488586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C55878C2B415D9100488586;
+			remoteInfo = "Mobile for AniList";
+		};
+		2C5587A82B415D9300488586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5587852B415D9100488586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C55878C2B415D9100488586;
+			remoteInfo = "Mobile for AniList";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C3F93E92B41789000B4A067 /* ContentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCard.swift; sourceTree = "<group>"; };
+		2C3F93FC2B417C5B00B4A067 /* ContentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentList.swift; sourceTree = "<group>"; };
+		2C3F94022B41AF1700B4A067 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2C3F94042B42C2ED00B4A067 /* URLRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestFactory.swift; sourceTree = "<group>"; };
+		2C3F94062B42E7F300B4A067 /* GraphQLQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLQuery.swift; sourceTree = "<group>"; };
+		2C3F94102B430E6D00B4A067 /* GetByScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetByScore.swift; sourceTree = "<group>"; };
+		2C3F94122B43302300B4A067 /* AniListConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniListConsts.swift; sourceTree = "<group>"; };
+		2C3F94142B43645100B4A067 /* LoadDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataCell.swift; sourceTree = "<group>"; };
+		2C3F941A2B44296500B4A067 /* ContentListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListService.swift; sourceTree = "<group>"; };
+		2C3F941D2B443FD800B4A067 /* ContentCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCardModel.swift; sourceTree = "<group>"; };
+		2C55878D2B415D9100488586 /* Mobile for AniList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile for AniList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5587902B415D9100488586 /* Mobile_for_AniListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_for_AniListApp.swift; sourceTree = "<group>"; };
+		2C5587922B415D9100488586 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		2C5587942B415D9200488586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C5587972B415D9200488586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C55879D2B415D9200488586 /* Mobile for AniListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile for AniListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5587A12B415D9200488586 /* Mobile_for_AniListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_for_AniListTests.swift; sourceTree = "<group>"; };
+		2C5587A72B415D9300488586 /* Mobile for AniListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile for AniListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5587AB2B415D9300488586 /* Mobile_for_AniListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_for_AniListUITests.swift; sourceTree = "<group>"; };
+		2C5587AD2B415D9300488586 /* Mobile_for_AniListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_for_AniListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C5587BC2B41684800488586 /* Mobile-for-AniList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mobile-for-AniList-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C55878A2B415D9100488586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C55879A2B415D9200488586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5587A42B415D9300488586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3F93E82B4177E800B4A067 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F940D2B43073B00B4A067 /* AniList */,
+				2C3F94002B41AEEC00B4A067 /* ContentList */,
+				2C3F94012B41AEFF00B4A067 /* Network */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2C3F93F12B4179A800B4A067 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F93E82B4177E800B4A067 /* Shared */,
+				2C5587922B415D9100488586 /* MainScreen.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2C3F94002B41AEEC00B4A067 /* ContentList */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F941C2B4429E900B4A067 /* Views */,
+				2C3F941A2B44296500B4A067 /* ContentListService.swift */,
+				2C3F941D2B443FD800B4A067 /* ContentCardModel.swift */,
+			);
+			path = ContentList;
+			sourceTree = "<group>";
+		};
+		2C3F94012B41AEFF00B4A067 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F94022B41AF1700B4A067 /* NetworkManager.swift */,
+				2C3F94042B42C2ED00B4A067 /* URLRequestFactory.swift */,
+				2C3F94062B42E7F300B4A067 /* GraphQLQuery.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2C3F940D2B43073B00B4A067 /* AniList */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F94102B430E6D00B4A067 /* GetByScore.swift */,
+				2C3F94122B43302300B4A067 /* AniListConsts.swift */,
+			);
+			path = AniList;
+			sourceTree = "<group>";
+		};
+		2C3F941C2B4429E900B4A067 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F94142B43645100B4A067 /* LoadDataCell.swift */,
+				2C3F93E92B41789000B4A067 /* ContentCard.swift */,
+				2C3F93FC2B417C5B00B4A067 /* ContentList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C5587842B415D9100488586 = {
+			isa = PBXGroup;
+			children = (
+				2C55878F2B415D9100488586 /* Mobile for AniList */,
+				2C5587A02B415D9200488586 /* Mobile for AniListTests */,
+				2C5587AA2B415D9300488586 /* Mobile for AniListUITests */,
+				2C55878E2B415D9100488586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C55878E2B415D9100488586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C55878D2B415D9100488586 /* Mobile for AniList.app */,
+				2C55879D2B415D9200488586 /* Mobile for AniListTests.xctest */,
+				2C5587A72B415D9300488586 /* Mobile for AniListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C55878F2B415D9100488586 /* Mobile for AniList */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F93F12B4179A800B4A067 /* Sources */,
+				2C5587902B415D9100488586 /* Mobile_for_AniListApp.swift */,
+				2C5587942B415D9200488586 /* Assets.xcassets */,
+				2C5587BC2B41684800488586 /* Mobile-for-AniList-Info.plist */,
+				2C5587962B415D9200488586 /* Preview Content */,
+			);
+			path = "Mobile for AniList";
+			sourceTree = "<group>";
+		};
+		2C5587962B415D9200488586 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C5587972B415D9200488586 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C5587A02B415D9200488586 /* Mobile for AniListTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5587A12B415D9200488586 /* Mobile_for_AniListTests.swift */,
+			);
+			path = "Mobile for AniListTests";
+			sourceTree = "<group>";
+		};
+		2C5587AA2B415D9300488586 /* Mobile for AniListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5587AB2B415D9300488586 /* Mobile_for_AniListUITests.swift */,
+				2C5587AD2B415D9300488586 /* Mobile_for_AniListUITestsLaunchTests.swift */,
+			);
+			path = "Mobile for AniListUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C55878C2B415D9100488586 /* Mobile for AniList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5587B12B415D9300488586 /* Build configuration list for PBXNativeTarget "Mobile for AniList" */;
+			buildPhases = (
+				2C5587892B415D9100488586 /* Sources */,
+				2C55878A2B415D9100488586 /* Frameworks */,
+				2C55878B2B415D9100488586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile for AniList";
+			productName = "Mobile for AniList";
+			productReference = 2C55878D2B415D9100488586 /* Mobile for AniList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C55879C2B415D9200488586 /* Mobile for AniListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5587B42B415D9300488586 /* Build configuration list for PBXNativeTarget "Mobile for AniListTests" */;
+			buildPhases = (
+				2C5587992B415D9200488586 /* Sources */,
+				2C55879A2B415D9200488586 /* Frameworks */,
+				2C55879B2B415D9200488586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C55879F2B415D9200488586 /* PBXTargetDependency */,
+			);
+			name = "Mobile for AniListTests";
+			productName = "Mobile for AniListTests";
+			productReference = 2C55879D2B415D9200488586 /* Mobile for AniListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C5587A62B415D9300488586 /* Mobile for AniListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5587B72B415D9300488586 /* Build configuration list for PBXNativeTarget "Mobile for AniListUITests" */;
+			buildPhases = (
+				2C5587A32B415D9300488586 /* Sources */,
+				2C5587A42B415D9300488586 /* Frameworks */,
+				2C5587A52B415D9300488586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5587A92B415D9300488586 /* PBXTargetDependency */,
+			);
+			name = "Mobile for AniListUITests";
+			productName = "Mobile for AniListUITests";
+			productReference = 2C5587A72B415D9300488586 /* Mobile for AniListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5587852B415D9100488586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2C55878C2B415D9100488586 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					2C55879C2B415D9200488586 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2C55878C2B415D9100488586;
+					};
+					2C5587A62B415D9300488586 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2C55878C2B415D9100488586;
+					};
+				};
+			};
+			buildConfigurationList = 2C5587882B415D9100488586 /* Build configuration list for PBXProject "Mobile for AniList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5587842B415D9100488586;
+			productRefGroup = 2C55878E2B415D9100488586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C55878C2B415D9100488586 /* Mobile for AniList */,
+				2C55879C2B415D9200488586 /* Mobile for AniListTests */,
+				2C5587A62B415D9300488586 /* Mobile for AniListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C55878B2B415D9100488586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5587982B415D9200488586 /* Preview Assets.xcassets in Resources */,
+				2C5587952B415D9200488586 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C55879B2B415D9200488586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5587A52B415D9300488586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5587892B415D9100488586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3F94032B41AF1700B4A067 /* NetworkManager.swift in Sources */,
+				2C3F941B2B44296500B4A067 /* ContentListService.swift in Sources */,
+				2C3F94072B42E7F300B4A067 /* GraphQLQuery.swift in Sources */,
+				2C3F94112B430E6D00B4A067 /* GetByScore.swift in Sources */,
+				2C3F93FD2B417C5B00B4A067 /* ContentList.swift in Sources */,
+				2C3F94052B42C2ED00B4A067 /* URLRequestFactory.swift in Sources */,
+				2C3F941E2B443FD800B4A067 /* ContentCardModel.swift in Sources */,
+				2C3F94152B43645100B4A067 /* LoadDataCell.swift in Sources */,
+				2C3F94132B43302300B4A067 /* AniListConsts.swift in Sources */,
+				2C5587932B415D9100488586 /* MainScreen.swift in Sources */,
+				2C5587912B415D9100488586 /* Mobile_for_AniListApp.swift in Sources */,
+				2C3F93EA2B41789000B4A067 /* ContentCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5587992B415D9200488586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5587A22B415D9200488586 /* Mobile_for_AniListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5587A32B415D9300488586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5587AC2B415D9300488586 /* Mobile_for_AniListUITests.swift in Sources */,
+				2C5587AE2B415D9300488586 /* Mobile_for_AniListUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C55879F2B415D9200488586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C55878C2B415D9100488586 /* Mobile for AniList */;
+			targetProxy = 2C55879E2B415D9200488586 /* PBXContainerItemProxy */;
+		};
+		2C5587A92B415D9300488586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C55878C2B415D9100488586 /* Mobile for AniList */;
+			targetProxy = 2C5587A82B415D9300488586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C5587AF2B415D9300488586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C5587B02B415D9300488586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C5587B22B415D9300488586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mobile for AniList/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobile-for-AniList-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.company.com.Mobile-for-AniList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5587B32B415D9300488586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mobile for AniList/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobile-for-AniList-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.company.com.Mobile-for-AniList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C5587B52B415D9300488586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.company.com.Mobile-for-AniListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile for AniList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobile for AniList";
+			};
+			name = Debug;
+		};
+		2C5587B62B415D9300488586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.company.com.Mobile-for-AniListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile for AniList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobile for AniList";
+			};
+			name = Release;
+		};
+		2C5587B82B415D9300488586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.company.com.Mobile-for-AniListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile for AniList";
+			};
+			name = Debug;
+		};
+		2C5587B92B415D9300488586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.company.com.Mobile-for-AniListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile for AniList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5587882B415D9100488586 /* Build configuration list for PBXProject "Mobile for AniList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5587AF2B415D9300488586 /* Debug */,
+				2C5587B02B415D9300488586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5587B12B415D9300488586 /* Build configuration list for PBXNativeTarget "Mobile for AniList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5587B22B415D9300488586 /* Debug */,
+				2C5587B32B415D9300488586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5587B42B415D9300488586 /* Build configuration list for PBXNativeTarget "Mobile for AniListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5587B52B415D9300488586 /* Debug */,
+				2C5587B62B415D9300488586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5587B72B415D9300488586 /* Build configuration list for PBXNativeTarget "Mobile for AniListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5587B82B415D9300488586 /* Debug */,
+				2C5587B92B415D9300488586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C5587852B415D9100488586 /* Project object */;
+}
